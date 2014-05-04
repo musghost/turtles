@@ -1,0 +1,30 @@
+{
+  "name": "turtles",
+  "private": true,
+  "dependencies": {
+    "jquery": "1.10.2",
+    "bootstrap": "3.0.3",
+    "backbone": null,
+    "underscore": null,
+    "requirejs": null
+  },
+  "exportsOverride": {
+    "jquery": {
+      "js/vendor": "**/jquery.min.js"
+    },
+    "bootstrap": {
+      "js/vendor": "dist/js/bootstrap.min.js",
+	    "styles/vendor": "dist/css/*.min.css",
+	    "fonts/vendor": "dist/fonts/*.*"
+	  },
+    "backbone":{
+      "js/vendor": "**/backbone.js"
+    },
+    "underscore": {
+      "js/vendor": "**/underscore.js"
+    },
+    "requirejs": {
+      "js/vendor": "**/require.js"
+    }
+  }
+}
